@@ -4,6 +4,13 @@ body {
     width: 100%;
 }
 
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: darkgray;
+    padding: 10px;
+}
 .table2 {
     border-spacing: 0px 20px; 
 }
@@ -31,7 +38,6 @@ body {
 
 .box_text_color a{
     color: inherit;
-    padding: inherit;
 }
 
 .td_image_cell {
@@ -44,10 +50,3 @@ body {
     display: block;
 }
 
-p {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    margin: 0;
-    color: darkgray;
-    padding: 10px;
-}
