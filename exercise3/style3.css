@@ -38,7 +38,7 @@
   text-decoration: none;
 }
 .navbar-item:hover {
-  background-color: #BCBABA;
+  background-color: #bdbbbb;
 }
 .dropdown-container {
   display: none;
@@ -52,7 +52,7 @@
 }
 .dropdown-item {
   width: 150px;
-  border: 1px solid #F0F0F0;
+  border: 1px solid #f0f0f0;
   padding: 10px;
   color: #000000;
   background-color: #ffffff;
