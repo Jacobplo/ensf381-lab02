@@ -23,12 +23,10 @@
   display: flexbox;
   flex-direction: row;
   background-color: #333;
-  padding: 15px
+  padding: 10px
 }
 .navbar-item {
-  flex: 1;
-
-  display: inline;
+  display: inline-block;
   padding: 10px;
   background-color: #333;
   border-radius: 5px;
@@ -46,18 +44,20 @@
   display: none;
   flex-direction: column;
 }
-.dropdown-container a {
-  color: #000000;
-}
 .navbar-item:hover .dropdown-container {
-  display: flex;
+  display: block;
   position: absolute;
-  margin: 10px;
+  margin-top: 10px;
+  margin-left: -10px;
 }
 .dropdown-item {
   width: 150px;
   border: 1px solid #F0F0F0;
   padding: 10px;
+  color: #000000;
   background-color: #ffffff;
   text-decoration: none;
+}
+.dropdown-container a {
+  color: #000000;
 }
